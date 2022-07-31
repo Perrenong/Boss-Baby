@@ -1,38 +1,48 @@
 import csv
 
-full_list_1 = []
+Cash_on_hand = []
 with open (r"\NP_PFB\Boss-Baby\csv_reports\cash-on-hand-usd.csv", "r") as file:
     
     reader = csv.reader(file)
     next(reader)
     for line in reader:
         # print(line[0], line[1])
-        full_list_1.append(line)
-print(full_list_1)
+        Cash_on_hand.append(line)
+print(Cash_on_hand)
 print()
 
 
 
-full_list_2 = []
+Overheads = []
 with open (r"\NP_PFB\Boss-Baby\csv_reports\overheads.csv", "r") as file:
     
     reader = csv.reader(file)
     next(reader)
     for line in reader:
         # print(line[0], line[1])
-        full_list_2.append(line)
-print(full_list_2)
+        Overheads.append(line)
+print(Overheads)
 print()
 
 
 
-full_list_3 = []
+Profit_and_lose = []
 with open (r"\NP_PFB\Boss-Baby\csv_reports\profit-and-loss-usd.csv", "r") as file:
     
     reader = csv.reader(file)
     next(reader)
     for line in reader:
         # print(line[0], line[1], line[2], line[3], line[4])
-        full_list_3.append(line)
-print(full_list_3)
+        Profit_and_lose.append(line)
+print(Profit_and_lose)
+print()
+
+
+
+
+
+
+
+
+
 
