@@ -11,4 +11,6 @@ import json
 data = respond.json()
 print(json.dumps (data, indent = 4 ))
 
-hello world
+list = []
+mean = sum(list)/len(list)
+print(mean)
