@@ -1,7 +1,6 @@
-from pathlib import Path
 import csv
 Profit_and_lose = []
-with open (r"\NP_PFB\Boss-Baby\csv_reports\profit-and-loss-usd.csv", "r") as file:
+with open (r"\Boss_baby_PFB\Boss-Baby-1\project_group\csv_reports\Profit and Loss.csv", "r") as file:
     
     reader = csv.reader(file)
     next(reader)
