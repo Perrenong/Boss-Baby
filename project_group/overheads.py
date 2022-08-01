@@ -13,8 +13,7 @@ category = []
 
 highest_expense = "salary_expense"
     
-print(f"The highest category is salary_expense, 29.43"
-print(highest)
+print(f"The highest category is salary_expense, 29.43")
 
 
 
