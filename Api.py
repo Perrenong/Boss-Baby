@@ -18,4 +18,3 @@ for week, forex in data["Time Series FX (Weekly)"].items():
     
 average_forex_price = sum(list)/len(list)
 print(f"The mean of the weekly closing forex price is ${round(average_forex_price,2)}")
-
