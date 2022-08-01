@@ -11,7 +11,7 @@ import json
 data = response.json()
 # print(float(data["Time Series FX (Weekly)"]["2022-07-29"]["4. close"]))
 
-#data structure to store collections of data
+#list to store collections of data
 list = []
 for week, forex in data["Time Series FX (Weekly)"].items():
     closing_price=(float(forex["4. close"]))
