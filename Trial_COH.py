@@ -15,18 +15,18 @@ print()
 flag_list = []
 prev_figure = (Cash_on_hand[0][1])
 
-def difference():
-    '''
-    '''
-    if distance <= 32:
-            return distance * 0
-        elif 33 <= distance <= 40:
-            return (32 * 0) + ((distance - 32) * 325)
-        elif 41 <= distance <= 48:
-            return (32 * 0) + (8 * 325) + ((distance - 40) * 550)
-        else:
-            distance > 48
-            return (32 * 0) + (8 * 325) + (8 * 550) + ((distance - 48) * 600)
+flag_list = prev_figure
+for x in flag_list: 
+    print(x) 
+
+# grade = 60
+ 
+# if grade >= 65:
+#     print("Passing grade")
+ 
+# else:
+#     print("Failing grade")
+
 # for value in Cash_on_hand:
 #     if value >= prev_figure:
 #         print(value)
@@ -48,6 +48,3 @@ print (prev_figure)
 # print("This is also always printed.")
 
 
-# # figure = prev_figure
-# # for x in figure: 
-# #     print(x) 
