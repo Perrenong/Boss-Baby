@@ -1,7 +1,7 @@
 import csv
 
 Cash_on_hand = []
-with open (r"\NP_PFB\Boss-Baby\csv_reports\cash-on-hand-usd.csv", "r") as file:
+with open (r"\NP_PFB\Boss-Baby\project_group\csv_reports\Cash on Hand.csv", "r") as file:
     
     reader = csv.reader(file)
     next(reader)
@@ -13,7 +13,8 @@ print()
 
 
 flag_list = []
-for COH in Cash_on_hand["Cash on Hand"]:
-    COH = 
+prev_figure = (Cash_on_hand[0][1])
+
+print (prev_figure)
 
 
