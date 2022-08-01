@@ -1,0 +1,11 @@
+Member 1 = "Ong Cheng Boon Perren (S10240337G)"
+
+Member 2 = "Kylie Loh Xin En (S10240068B)"
+
+Member 3 = "Yip Kah Yeung Daryl (S10247793F)"
+ 
+Member 4 = "Lam Kah Fon (S10220869E)"
+ 
+Member 5 = "Ng Shi-Cheng, Regene (S10239830)"
+
+Member 6 = "Germaine Lim (S10240065E)"
