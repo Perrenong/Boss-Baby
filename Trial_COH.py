@@ -1,4 +1,5 @@
 import csv
+from sqlite3.dbapi2 import _Statement
 
 Cash_on_hand = []
 with open (r"\NP_PFB\Boss-Baby\project_group\csv_reports\Cash on Hand.csv", "r") as file:
@@ -14,7 +15,11 @@ print()
 
 flag_list = []
 prev_figure = (Cash_on_hand[0][1])
+for value in Cash_on_hand:
+    if value >= prev_figure:
+        print(value)
 
-print (prev_figure)
+# continute_Statement
+
 
 
