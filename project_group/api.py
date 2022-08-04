@@ -7,7 +7,7 @@ response = requests.get(url)
 data = response.json()
 
 """
-Get the exchange rate of  1 USD to SGD
+get the exchange rate of 1 USD to SGD
 """
 def get_exchange_rate():
     # data is type of dictionary
