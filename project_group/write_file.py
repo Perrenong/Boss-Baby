@@ -1,7 +1,5 @@
 # Summarise data from Cash On And, Profit and Loss, and Overheads to text file 
  
-import read_line
- 
 """ 
 Format the data to be written to file for profit and loss 
 """ 

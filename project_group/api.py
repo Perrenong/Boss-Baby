@@ -14,5 +14,4 @@ def get_exchange_rate():
 
     # ['Realtime Currency Exchange Rate'] is the key the of dictionary
     # ['5. Exchange Rate'] is the key of the value of the dictionary
-    
     return data['Realtime Currency Exchange Rate']['5. Exchange Rate']

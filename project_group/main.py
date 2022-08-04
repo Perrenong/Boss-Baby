@@ -1,7 +1,5 @@
 # Data getters
-from unittest import result
 import api
-import read_file
 
 # Data processors
 import cash_on_hand
@@ -9,7 +7,7 @@ import profit_loss
 import overheads
 
 # Output
-import read_file
+import write_file
 
 def main():
     # Get data from API
