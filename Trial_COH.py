@@ -1,7 +1,7 @@
 import csv
 
 Cash_on_hand = []
-with open (r"\NP_PFB\Boss-Baby\project_group\csv_reports\Cash on Hand.csv", "r") as file:
+with open (r"/Users/kylielxe/Desktop/school/Boss-Baby/project_group/csv_reports/Cash on Hand.csv", "r") as file:
     
     reader = csv.reader(file)
     next(reader)
