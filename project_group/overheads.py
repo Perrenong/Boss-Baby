@@ -14,7 +14,7 @@ def conversion(exchange_rate):
 Returns the highest overhead in the data.
 """
 def highest_overhead(data):
-    # Temporary Storage to track the highest value
+    # Temporary Storage to track the highest value data
     highest_num = 0
     highest_index = 0
 
